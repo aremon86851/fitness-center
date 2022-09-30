@@ -1,10 +1,63 @@
 .single-data-container {
-    background-color: white;
-    border-radius: 30px 30px 0 0;
+    background-color: skyblue;
+    border-radius: 30px 30px 10px 10px;
+    position: relative;
+    height: 450px;
+}
+
+.single-data-container div {
+    padding: 10px 10px;
 }
 
 .exercise-img {
     width: 100%;
     height: 200px;
     border-radius: 30px 30px 0 0;
+}
+
+.exercise-name {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.exercise-age {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.inside-exercise-age {
+    font-weight: 800;
+}
+
+.exercise-description {
+    margin-top: 10px;
+}
+
+.exercise-required-time {
+    margin-top: 5px;
+}
+
+.inside-required-time {
+    font-weight: 800;
+}
+
+.exercise-btn {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: orange;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.exercise-btn:hover {
+    background-color: #42cf42;
+    color: white;
 }
