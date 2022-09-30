@@ -1,0 +1,9 @@
+.left-data-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.left-content {
+    padding: 50px 100px;
+    border-right: 1px solid red;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Pullups",
+        "age": "20-25",
+        "description": "The pullup is a classic strength-building move that everyone needs to do in the gym.",
+        "time": "30s",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2020/01/Shirtless-Man-Performing-Pullups-In-City-Park.jpg?w=800&quality=86&strip=all"
+    },
+    {
+        "id": 2,
+        "name": "Farmer's Walk",
+        "age": "18-20",
+        "description": "you need to do is stand up straight and start walking with some heavy dumbbells in each hand.",
+        "time": "30s",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/04/5MovesCoreAbDumbellFarmersWalk0.jpg?w=800&quality=86&strip=all"
+    },
+    {
+        "id": 3,
+        "name": "Deadlift",
+        "age": "25-27",
+        "description": "The bread and butter of countless gym routines, this move, if done properly, will predominantly engage your back and legs.",
+        "time": "30s",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/05/Bodybuilder-Deadlifting-Heavy-Weight.jpg?w=800&quality=82&strip=all"
+    },
+    {
+        "id": 4,
+        "name": "Dips",
+        "age": "27-30",
+        "description": "You don't need any fancy equipment for dips which makes this an ideal bodyweight workout for triceps.",
+        "time": "30s",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/06/man-shoulder-dips-1109.jpg?w=800&quality=86&strip=all"
+    },
+    {
+        "id": 5,
+        "name": "Shrugs",
+        "age": "33-35",
+        "description": "You can utilize the trap bar, stick to dumbbells, hop on a calf machine, or use a designated shrug machine",
+        "time": "30s",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/07/Barbell-Shrug.jpg?w=800&quality=86&strip=all"
+    },
+    {
+        "id": 6,
+        "name": "Incline Flye",
+        "age": "30-33",
+        "description": "This is a killer way to hit your upper chest. Just set the bench at an incline of no more than 45 degrees",
+        "time": "30s",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/07/Mike-OHearn-Dumbbell-Flye.jpg?w=800&quality=86&strip=all"
+    }
+]
