@@ -1,0 +1,31 @@
+.break-container {
+    margin: 10px 10px;
+}
+
+.break-container h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.break-time {
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.break-time button {
+    margin: 10px 10px;
+    background-color: white;
+    border: 0;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.active {
+    background-color: green !important;
+    color: white;
+}

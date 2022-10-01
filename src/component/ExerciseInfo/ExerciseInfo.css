@@ -1,0 +1,48 @@
+.exercise-info-container {
+    margin: 10px 10px;
+}
+
+.exercise-info-container h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.exercise-time {
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+.exercise-time p {
+    color: gray;
+    font-weight: 700;
+}
+
+.break-seconds {
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+.break-seconds p {
+    color: gray;
+    font-weight: 700;
+}
+
+.exercise-info-container button {
+    width: 100%;
+    margin: 50px 0;
+    background-color: orange;
+    border: 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}

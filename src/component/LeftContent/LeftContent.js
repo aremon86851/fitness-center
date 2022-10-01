@@ -10,9 +10,7 @@ const LeftContent = () => {
                 <Header></Header>
                 <Exercise></Exercise>
             </div>
-            <div className='right-profile'>
-                <RightProfile></RightProfile>
-            </div>
+            <RightProfile></RightProfile>
         </div>
     );
 };

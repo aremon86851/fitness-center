@@ -1,0 +1,10 @@
+.right-profile {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.profile-containers {
+    position: sticky;
+    top: 0;
+}
