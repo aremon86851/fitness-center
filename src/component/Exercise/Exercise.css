@@ -15,3 +15,18 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+    .full-content-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1240px) and (min-width: 801px) {
+    .full-content-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10px;
+    }
+}

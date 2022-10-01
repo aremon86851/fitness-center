@@ -61,3 +61,5 @@
     background-color: #42cf42;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {}
