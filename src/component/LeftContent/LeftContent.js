@@ -1,6 +1,7 @@
 import React from 'react';
 import Exercise from '../Exercise/Exercise';
 import Header from '../Header/Header';
+import QandA from '../QandA/QandA';
 import RightProfile from '../RightProfile/RightProfile';
 import './LeftContent.css'
 const LeftContent = () => {
@@ -9,6 +10,7 @@ const LeftContent = () => {
             <div className='left-content'>
                 <Header></Header>
                 <Exercise></Exercise>
+                <QandA></QandA>
             </div>
             <RightProfile></RightProfile>
         </div>
