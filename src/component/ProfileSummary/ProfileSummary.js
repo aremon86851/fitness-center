@@ -14,15 +14,15 @@ const ProfileSummary = () => {
             </div>
             <div className='profile-details'>
                 <div>
-                    <h2>75<small className='kg'>kg</small> </h2>
+                    <h2>63<small className='kg'>kg</small> </h2>
                     <p className='weight'>Weight</p>
                 </div>
                 <div>
-                    <h2>6.5</h2>
+                    <h2>5.4</h2>
                     <p className='height'>Height</p>
                 </div>
                 <div>
-                    <h2>25<small className='yrs'>yrs</small></h2>
+                    <h2>20<small className='yrs'>yrs</small></h2>
                     <p className='age'>age</p>
                 </div>
             </div>
