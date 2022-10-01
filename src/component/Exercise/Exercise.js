@@ -11,7 +11,7 @@ const Exercise = () => {
     }, [])
     return (
         <div>
-            <h3>Select today's exercise</h3>
+            <h3 className='select-today'>Select today's exercise</h3>
             <div className='full-content-container'>
                 {
                     exercises.map(exercise => <DetailExercise key={exercise.id} exercise={exercise}></DetailExercise>)

@@ -2,6 +2,7 @@ import React from 'react';
 import './ExerciseInfo.css'
 
 const ExerciseInfo = () => {
+
     return (
         <div className='exercise-info-container'>
             <h2>Exercise Details</h2>

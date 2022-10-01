@@ -6,3 +6,13 @@
 .left-content {
     padding: 50px 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .left-data-container {
+        display: block;
+    }
+
+    .left-content {
+        padding: 0;
+    }
+}
