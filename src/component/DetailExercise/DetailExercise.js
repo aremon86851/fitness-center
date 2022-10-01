@@ -11,7 +11,6 @@ const DetailExercise = ({ exercise }) => {
         addTime.innerText = setTime;
     }
 
-
     return (
         <div className='single-data-container'>
             <div>

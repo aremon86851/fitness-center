@@ -2,15 +2,15 @@ import React from 'react';
 import './BreakTime.css'
 
 const BreakTime = () => {
-    // let buttons = document.querySelectorAll('button');
-    // buttons.forEach(button => {
-    //     button.addEventListener('click', function () {
-    //         buttons.forEach(btn => btn.classList.remove('active'))
-    //         this.classList.add('active')
-    //         // const getSeconds = document.getElementById('break-time-seconds');
-    //         // getSeconds.innerText = this.innerText
-    //     })
-    // })
+    let buttons = document.querySelectorAll('button');
+    buttons.forEach(button => {
+        button.addEventListener('click', function () {
+            buttons.forEach(btn => btn.classList.remove('active'))
+            this.classList.add('active')
+            // const getSeconds = document.getElementById('break-time-seconds');
+            // getSeconds.innerText = this.innerText
+        })
+    })
     return (
         <div className='break-container'>
             <h2>Add A Break</h2>
