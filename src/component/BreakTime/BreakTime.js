@@ -13,11 +13,10 @@ function activeBtn() {
             getSeconds.innerText = this.innerText
         })
     })
-
-
 }
 
 const BreakTime = () => {
+
     useEffect(() => {
         //Get From local storage
         const setItemFromLocal = localStorage.getItem('breakTime')
@@ -28,15 +27,14 @@ const BreakTime = () => {
         }
     }, [])
 
-
     return (
         <div className='break-container'>
-            <h2>Add A Break</h2>
+            <h2>Add A Break <small>(in seconds)</small></h2>
             <div id='clickable' className='break-time'>
-                <button onClick={activeBtn} className='btn'><span>10</span>s</button>
-                <button onClick={activeBtn} className='btn'><span>20</span>s</button>
-                <button onClick={activeBtn} className='btn'><span>30</span>s</button>
-                <button onClick={activeBtn} className='btn'><span>40</span>s</button>
+                <button onClick={activeBtn} className='btn'><span>10</span></button>
+                <button onClick={activeBtn} className='btn'><span>20</span></button>
+                <button onClick={activeBtn} className='btn'><span>30</span></button>
+                <button onClick={activeBtn} className='btn'><span>40</span></button>
             </div>
         </div>
     );

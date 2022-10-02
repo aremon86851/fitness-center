@@ -36,7 +36,7 @@
     font-weight: 700;
 }
 
-.exercise-info-container button {
+.activity-btn {
     width: 100%;
     margin: 50px 0;
     background-color: orange;
@@ -45,4 +45,10 @@
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.activity-btn:hover {
+    background-color: #42cf42;
+    color: white;
 }

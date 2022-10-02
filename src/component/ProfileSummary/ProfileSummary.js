@@ -1,5 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './ProfileSummary.css'
+
 const ProfileSummary = () => {
     return (
         <div>
@@ -9,7 +11,7 @@ const ProfileSummary = () => {
                 </div>
                 <div className='profile-info'>
                     <h2 className='profile-name'>Noman Bepari</h2>
-                    <p className='profile-location'><span></span>NYC, USA</p>
+                    <p className='profile-location'>NYC, USA</p>
                 </div>
             </div>
             <div className='profile-details'>

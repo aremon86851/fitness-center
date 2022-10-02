@@ -8,6 +8,10 @@
     font-size: 25px;
 }
 
+.break-container h2>small {
+    font-size: 14px;
+}
+
 .break-time {
     background-color: #ededed;
     display: flex;
